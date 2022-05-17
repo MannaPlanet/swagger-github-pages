@@ -31,3 +31,14 @@ paths:
           description: "successful operation"
           schema:
             type: "string"
+  /api/hi:
+    get:
+      tags:
+      - "Hello Controller"
+      operationId: "hi"
+      parameters: []
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            type: "string"
