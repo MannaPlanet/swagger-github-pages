@@ -20,6 +20,17 @@ schemes:
 - "http"
 - "https"
 paths:
+  /api/goodNight:
+    get:
+      tags:
+      - "Hello Controller"
+      operationId: "goodNight"
+      parameters: []
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            type: "string"
   /api/goodmorning:
     get:
       tags:
